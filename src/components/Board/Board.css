@@ -1,0 +1,37 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 600px;
+    margin: 100px auto;
+}
+
+.winnerBanner {
+    background-color: rgb(124, 197, 124);
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: large;
+   position: absolute;
+   top: 10%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ 
+}
+
+
+.restartButton {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
